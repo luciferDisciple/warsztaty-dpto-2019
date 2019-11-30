@@ -103,3 +103,11 @@ Przejdź do strony pod adresem:
 ```
 https://goofy-kirch-840dad.netlify.com/admin/
 ```
+
+W Netlify:
+
+```
+https://app.netlify.com/sites/goofy-kirch-840dad/settings/identity
+```
+
+Aktywuj **Git Gateway**.
