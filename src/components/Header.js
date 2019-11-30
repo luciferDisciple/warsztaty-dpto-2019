@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import '../resources/style.css';
 
 export const Header = () =>
     <ul>
