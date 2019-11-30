@@ -10,11 +10,13 @@ export default ({
 }) => {
     return (
         <Layout>
+          <ol>
           {
             edges.map(
-              post => <PostLink key={post.node.id} post={post.node} />
+              post => <li></li><PostLink key={post.node.id} post={post.node} /></li>
             )
           }
+          </ol>
         </Layout>
     );
 }
