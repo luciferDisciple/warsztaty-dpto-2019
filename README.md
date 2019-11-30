@@ -111,3 +111,12 @@ https://app.netlify.com/sites/goofy-kirch-840dad/settings/identity
 ```
 
 Aktywuj **Git Gateway**.
+
+
+## Czytanie plików Markdown
+
+W wierszu poleceń:
+
+```
+npm install --save gatsby-source-filesystem gatsby-transformer-remark
+```
