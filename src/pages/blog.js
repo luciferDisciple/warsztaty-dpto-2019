@@ -13,7 +13,7 @@ export default ({
           <ol>
           {
             edges.map(
-              post => <li></li><PostLink key={post.node.id} post={post.node} /></li>
+              post => <li><PostLink key={post.node.id} post={post.node} /></li>
             )
           }
           </ol>
