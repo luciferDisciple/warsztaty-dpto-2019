@@ -1,8 +1,9 @@
 import React from "react";
-import { Header } from '../components/header';
+import { Header } from '../components/Header';
+import { Contact } from '../components/Contact';
 
 export default () => <div>
     <Header />
     <p>This is about us page!</p>
-    <p>Contact: 123-123-123</p>
+    <Contact />
 </div>
