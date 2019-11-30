@@ -11,7 +11,7 @@ export default ({
         <Layout>
           {
             edges.map(
-              post => <PostLink post={post} />
+              post => <PostLink key={post.node.id} post={post.node} />
             )
           }
         </Layout>
